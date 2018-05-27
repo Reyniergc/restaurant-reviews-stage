@@ -33,6 +33,7 @@ fillNeighborhoodsHTML = (neighborhoods = self.neighborhoods) => {
   const select = document.getElementById('neighborhoods-select');
   neighborhoods.forEach(neighborhood => {
     const option = document.createElement('option');
+	option.setAttribute("role", "option");
     option.innerHTML = neighborhood;
     option.value = neighborhood;
     select.append(option);
@@ -61,6 +62,7 @@ fillCuisinesHTML = (cuisines = self.cuisines) => {
 
   cuisines.forEach(cuisine => {
     const option = document.createElement('option');
+	option.setAttribute("role", "option");
     option.innerHTML = cuisine;
     option.value = cuisine;
     select.append(option);
@@ -137,7 +139,11 @@ fillRestaurantsHTML = (restaurants = self.restaurants) => {
  */
 createRestaurantHTML = (restaurant) => {
   const li = document.createElement('li');
-
+  li.setAttribute("role", "listitem");
+  li.setAttribute("tabIndex", "1");
+  li.setAttribute("aria-hidden", "false");
+  li.setAttribute("aria-label", restaurant.name);
+ 
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
