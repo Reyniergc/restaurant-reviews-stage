@@ -45,7 +45,11 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 
 #maincontent {
   background-color: #f3f3f3;
-  min-height: 100%;
+  min-height: 100%;	 
+}
+
+#side_by_side {
+	display: flex;
 }
 
 #footer {
@@ -269,7 +273,7 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 140px 40px 30px;
+  padding: 24px 40px 30px;
   width: 50%;
 }
 
