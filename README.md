@@ -13,7 +13,7 @@ Also this project uses a **__Service Worker__** that allows the user to use the 
 - Open the command line in the folder of your project and execute the following command:
   - **python -m http.server 8000**
   
-  **References:**
+**References:**
   
 - [Python Download Link](https://www.python.org/downloads/)
 
