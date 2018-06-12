@@ -12,8 +12,7 @@ Also this project uses a **__Service Worker__** that allows the user to use the 
 - Download and install **Python**
 - Open the command line in the folder of your project and execute the following command:
   - **python -m http.server 8000**
-  - [Visit the site in your browser at](http://localhost:8000)
-  [Visit](http://localhost:8000)
+  [Visit the site in your browser at](http://localhost:8000)
   
 **References:**
   
