@@ -11,7 +11,9 @@ Also this project uses a **__Service Worker__** that allows the user to use the 
 **__Requeriments to run the aplication:__**
 - Download and install **Python**
 - Open the command line in the folder of your project and execute the following command:
-  - **python -m http.server 8000**
+  - **python --version** - To verify the python version instaled in your computer. 
+  - **python -m SimpleHTTPServer 8000** - __Execute the following command for python version 2__
+  - **python -m http.server 8000**      - __Execute the following command for python versions greater or equal 3__
   - Visit the site in your browser at: http://localhost:8000
   
 **References:**
