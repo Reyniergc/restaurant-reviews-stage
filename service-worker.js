@@ -1,8 +1,8 @@
 // Set a name for the current cache
-var CACHE_VERSION = 'v1'; 
+const CACHE_VERSION = 'v1'; 
 
 // Default files to always cache
-var CACHE_FILES = [
+const CACHE_FILES = [
 	'./',
 	'./index.html',
 	'./data/restaurants.json',
@@ -30,6 +30,9 @@ self.addEventListener('install', function (event) {
             console.log('Opened cache');
             return cache.addAll(CACHE_FILES);
         })
+		.catch(function(error) {
+			console.log('[ServiceWorker] Error opening cache: ', error);
+		})
     );
 });
 
