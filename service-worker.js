@@ -3,7 +3,7 @@ const CACHE_VERSION = 'v1';
 
 // Default files to always cache
 const CACHE_FILES = [
-	'./',
+	'/',
 	'./index.html',
 	'./data/restaurants.json',
 	'./restaurant.html',
@@ -57,7 +57,7 @@ self.addEventListener('fetch', function (event) {
                 return res;
             }
 			
-			requestBackend(event);
+			return fetch(event.request);
         })
     )
 });
