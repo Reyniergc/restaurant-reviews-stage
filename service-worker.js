@@ -10,7 +10,7 @@ const CACHE_FILES = [
 	'./js/dbhelper.js',
 	'./js/main.js',
 	'./js/restaurant_info.js',
-	'./css/style.css',
+	'./css/styles.css',
 	'./img/1.jpg',
     './img/2.jpg',
     './img/3.jpg',
