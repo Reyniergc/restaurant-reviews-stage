@@ -278,15 +278,21 @@ nav h1 a {
 }
 
 #reviews-container {
-  padding: 30px 40px 80px;
+  padding: 37px 40px 80px;
 }
 
+/*
 #reviews-container h2 {
   color: #f58500;
   font-size: 24pt;
   font-weight: 300;
   letter-spacing: -1px;
   padding-bottom: 1pt;
+}
+*/
+
+#reviews-container h3 {
+  color: #f58500;
 }
 
 #reviews-list {
