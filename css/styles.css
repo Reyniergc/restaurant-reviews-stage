@@ -157,7 +157,6 @@ nav h1 a {
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
-  
 }
 
 #restaurants-list li {
@@ -317,4 +316,17 @@ nav h1 a {
 
 #restaurant-hours td {
   color: #666;
+}
+
+/*********** MEDIA QUERIES. ***********/
+@media screen and (max-width: 448px) {
+	#side_by_side {
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 461px) {
+	#restaurants-list {
+		padding-top: 70px;
+	}
 }
